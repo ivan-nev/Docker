@@ -9,5 +9,5 @@ docker build ./ --tag stock_products
 ### Запуск контейнера
 
 ```
-docker run --name=my_stock_products -d -p 6060:8000 stock_products
+docker run --name=my_stock_products -d -p 8000:6060 stock_products
 ```
